@@ -15,6 +15,15 @@ a:hover{text-decoration: none; cursor:pointer;}
 button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 
+a{
+	color:#2f2f2f!important;
+}
+
+ a:hover{
+	color:#262626!important;
+	 text-decoration: none;
+	 cursor:pointer;
+}
 
 
 
@@ -79,6 +88,13 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 }
 .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
 	width:100%;
+}
+
+
+/* Background Effects */
+
+.b-parallax{
+	background-attachment:fixed;
 }
 
 
@@ -163,17 +179,14 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 #bloc-2 p{
 	font-size: 20px;
 }
-#bloc-5 p{
-	font-size: 14px;
-}
 
 /* Bloc image backgrounds */
 
 .bg-ohta{
-	background-image:url('img/ohta.jpg');
+	background-image:url("img/ohta.jpg");
 }
 .bg-highway{
-	background-image:url('img/highway.jpg');
+	background-image:url("img/highway.jpg");
 }
 
 /* = NavBar
