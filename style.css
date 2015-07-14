@@ -167,6 +167,9 @@ a{
 #hero-bloc,#nav-bloc,#bloc-2,#bloc-3,#bloc-4,#bloc-5{
 	background-color:#ffffff;
 }
+#bloc-2 h3{
+	color:#2f2f2f;
+}
 #bloc-2,#bloc-5{
 	color:#2f2f2f;
 }
