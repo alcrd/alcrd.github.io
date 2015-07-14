@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------*/
-/*	    
+/*	    ALCRD OHTA TEAM
 /*      Built with Blocs
 /*-----------------------------------------------------------------------------------*/
 
@@ -165,7 +165,7 @@ a{
 /* Custom bloc styling */
 
 #hero-bloc,#nav-bloc,#bloc-2,#bloc-3,#bloc-4,#bloc-5{
-	background-color:#c7c7c7;
+	background-color:#ffffff;
 }
 #bloc-2,#bloc-5{
 	color:#2f2f2f;
@@ -367,6 +367,10 @@ button{
 
 /* Icon colour styles */
 
+.icon-2{
+	color:#ffffff!important;
+	border-color:#ffffff!important;
+}
 .icon-1{
 	color:#2f2f2f!important;
 	border-color:#2f2f2f!important;
