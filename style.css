@@ -149,10 +149,10 @@ a{
 #hero-bloc,#bloc-3,#bloc-4{
 	background-color:#ffffff;
 }
-#bloc-2,#bloc-5{
+#bloc-2{
 	background-color:#e6e6e6;
 }
-#bloc-2,#bloc-3,#bloc-5{
+#bloc-2,#bloc-3{
 	color:#2f2f2f;
 }
 #bloc-2 p{
@@ -172,6 +172,9 @@ a{
 }
 .bg-ohta{
 	background-image:url("img/ohta.jpg");
+}
+.bg-ohta{
+	background-image:url('img/ohta.jpg');
 }
 
 /* = NavBar
@@ -383,19 +386,6 @@ button{
 
 
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
 
 
 /* Empty space fillers - Used on empty blocs to fill them out */
