@@ -18,6 +18,7 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 a{
 	color:#2f2f2f!important;
 }
+
  a:hover{
 	color:#262626!important;
 	 text-decoration: none;
@@ -140,19 +141,22 @@ a{
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset-md{
+	margin-top:50px;
+}
+
 
 /* Custom bloc styling */
 
-#nav-bloc{
-	background-color:#2f2f2f;
-}
-#hero-bloc,#bloc-3,#bloc-4{
+#hero-bloc,#nav-bloc,#bloc-3,#bloc-4{
 	background-color:#ffffff;
 }
-#bloc-2{
+#bloc-2,#bloc-5{
 	background-color:#e6e6e6;
 }
-#bloc-2,#bloc-3{
+#bloc-2,#bloc-3,#bloc-5{
 	color:#2f2f2f;
 }
 #bloc-2 p{
@@ -172,9 +176,6 @@ a{
 }
 .bg-ohta{
 	background-image:url("img/ohta.jpg");
-}
-.bg-ohta{
-	background-image:url('img/ohta.jpg');
 }
 
 /* = NavBar
@@ -385,7 +386,25 @@ button{
 }
 
 
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.sm-shadow{
+	text-shadow:0 1px 2px rgba(0,0,0,.3);
+}
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
 
 
 /* Empty space fillers - Used on empty blocs to fill them out */
